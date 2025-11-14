@@ -1,9 +1,8 @@
 # Grassmophism — Login & Register (Front-end Demo)
 
 ![license - NK](https://img.shields.io/badge/license-NK-blue.svg)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Rollboy-tech/grassmophisim-login-register)
-![Top Language](https://img.shields.io/github/languages/top/Rollboy-tech/grassmophisim-login-register)
-
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Rollboy-tech/grassmophisim-login-register-pages)
+![Top Language](https://img.shields.io/github/languages/top/Rollboy-tech/grassmophisim-login-registerRollboy-tech/grassmophisim-login-register-pages)`
 Professional, minimal front-end demonstration of a login and registration UI showcasing a glassmorphism aesthetic. This repository contains the static client-side files for learning, prototyping, and UI demos. There is no backend or persistent authentication included.
 
 Short summary / quick links

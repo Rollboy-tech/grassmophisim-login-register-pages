@@ -1,4 +1,13 @@
-// Safer, commented script for login/registration UI
+// File: script.js
+// Purpose: Client-side validation and simulated login/register flows for the demo.
+// Instructions:
+// - This script is intentionally defensive: elements may be missing depending on which page
+//   (login.html or signup.html) is loaded. IDs used by this script: e-input, p-input, pm-input,
+//   log-button, reg-button. If you rename DOM IDs, update those selectors here.
+// - All submissions are simulated (no backend). Replace simulated flows with fetch()/XHR
+//   calls to connect to a real API when adding a backend.
+// - Keep event handlers lightweight to avoid blocking the UI; move heavy logic server-side.
+//
 // Elements may or may not exist depending on whether this is login.html or signup.html
 const eInput = document.getElementById('e-input');
 const pInput = document.getElementById('p-input');

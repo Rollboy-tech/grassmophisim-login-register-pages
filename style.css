@@ -1,4 +1,14 @@
 
+/*
+    File: style.css
+    Purpose: Styles for the Grassmophism login/register demo.
+    Instructions:
+    - Edit colors, spacing, and glassmorphism properties here.
+    - Background image is referenced as ./bg.jpg — replace or remove as needed.
+    - Keep responsive rules near the bottom (add media queries there).
+    - This file is linked from `login.html` and `signup.html`.
+*/
+
 *, *::after, *::before {
     box-sizing: border-box;
     padding: 0;

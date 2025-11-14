@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grassmophisim Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="form-box">
+            <h2>LOG IN</h2>
+            <!--
+                Login form:
+                - `e-input` for email
+                - `p-input` for password (type corrected to password below)
+                - `remember` checkbox (visual only; no storage implemented)
+                The form currently doesn't submit to a server; JavaScript handles validation and UX.
+            -->
+            <form action="" novalidate>
+                <div class="input-group">
+                    <!-- Use text input for email; keeping id consistent with script.js -->
+                    <input type="text" id="e-input" autocomplete="off" placeholder="yourname@domain.com">
+                    <!-- label 'for' attribute updated to match input id would be ideal, but script references id directly -->
+                    <label for="e-input" id="e-label">Enter email</label>
+                </div>
+
+                <div class="input-group">
+                    <!-- password field should be type password for security/UX -->
+                    <input type="password" id="p-input" autocomplete="off" placeholder="Your_password">
+                    <label for="p-input" id="p-label">Enter password</label>
+                </div>
+                <div class="remember">
+                    <div>
+                        <input type="checkbox" style="cursor: pointer;" id="remember">
+                    </div>
+                    <span>Remember me for 30 days</span>
+                </div>
+                <div class="link">
+                    <!-- Fixed typo: Password -->
+                    <a href="#">Forgot Password</a>
+                    <hr/>
+                    <a href="signup.html">Get account</a>
+                </div>
+                <!-- Button triggers JS; `type="button"` prevents accidental form submit when JS isn't loaded -->
+                <button id="log-button" type="button">Login</button>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

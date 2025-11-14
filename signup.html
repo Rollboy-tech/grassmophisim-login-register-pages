@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grassmophisim Register</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+        <div class="form-box">
+            <h2>REGISTER</h2>
+            <!--
+                Registration form:
+                - `e-input` email
+                - `p-input` password
+                - `pm-input` password confirmation
+                JavaScript validates input and simulates registration (no backend).
+            -->
+            <form action="" novalidate>
+                <div class="input-group">
+                    <input type="text" id="e-input" autocomplete="off" placeholder="yourname@domain.com">
+                    <label for="e-input" id="e-label">Enter your email</label>
+                </div>
+                <div class="input-group">
+                    <!-- password input kept as type password -->
+                    <input type="password" id="p-input" autocomplete="off" placeholder="Propose strong password">
+                    <label for="p-input" id="p-label">Type password</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="pm-input" autocomplete="off" placeholder="Re-enter your password">
+                    <label for="pm-input" id="pm-label">Re-type password</label>
+                </div>
+                <div class="link">
+                    <a href="#">Contact us</a>
+                    <hr/>
+                    <a href="login.html">Registered? Login</a>
+                </div>
+                <!-- Use type=button so clicking won't submit to a non-existent server -->
+                <button id="reg-button" type="button">Register</button>
+            </form>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

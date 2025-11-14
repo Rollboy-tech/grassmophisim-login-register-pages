@@ -2,7 +2,6 @@
 
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
-![Status](https://img.shields.io/badge/Status-Active-success)
 
 A beautiful, modern login form with **glassmorphism design**, **animated gradient backgrounds**, and **real-time form validation**. Built with HTML, CSS, and vanilla JavaScript.
 
